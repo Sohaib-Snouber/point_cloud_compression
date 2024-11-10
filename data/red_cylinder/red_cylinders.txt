@@ -1,0 +1,4 @@
+here in the red_cylinder folder in data folder, alot of .ply files will be placed
+each file will represent the red cylinder point cloud from different angle and view
+so that later, these files will be used in train_model.py file, to train the model 
+for detecting the redylinder fastly with accurate centroid.
