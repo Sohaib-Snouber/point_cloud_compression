@@ -9,7 +9,7 @@ def load_point_cloud(file_path):
 def load_dataset(data_dir):
     data = []
     labels = []
-    label_map = {"pawn": 0, "knight": 1, "rook": 2}
+    label_map = {"red_cylinder": 0}
 
     for label_name, label in label_map.items():
         folder_path = os.path.join(data_dir, label_name)
