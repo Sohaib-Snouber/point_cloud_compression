@@ -30,4 +30,5 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 # Train the model
 model.fit(data_padded, labels, epochs=20, batch_size=4)
 model.save("chess_pointnet_model.h5")
+model.export("saved_model")
 print("Model trained and saved!")
